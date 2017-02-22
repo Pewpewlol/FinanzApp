@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:background="@android:color/background_light">
+    <ScrollView
+        p1:layout_width="fill_parent"
+        p1:layout_height="wrap_content">
+        <LinearLayout
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:orientation="vertical">
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/linearLayout2">
+                <TextView
+                    p1:text="Einkommen"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/textView1"
+                    p1:textColor="@android:color/background_dark" />
+                <TextView
+                    p1:text="-"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/textView2"
+                    p1:textColor="@android:color/background_dark"
+                    p1:layout_marginLeft="80dp" />
+                <TextView
+                    p1:text="€"
+                    p1:textAppearance="?android:attr/textAppearanceLarge"
+                    p1:layout_width="wrap_content"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/textView3"
+                    p1:textColor="@android:color/background_dark" />
+            </LinearLayout>
+            <EditText
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText1"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="Speichern"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button1" />
+            <RelativeLayout
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content">
+                <LinearLayout
+                    p1:orientation="horizontal"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/linearLayout3">
+                    <Button
+                        p1:text="+"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/button2"
+                        p1:layout_weight="1"
+                        p1:background="@android:color/darker_gray" />
+                    <Button
+                        p1:text="-"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/button3"
+                        p1:layout_weight="1"
+                        p1:background="@android:color/darker_gray" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content">
+                <LinearLayout
+                    p1:orientation="horizontal"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="wrap_content"
+                    p1:id="@+id/linearLayout4">
+                    <Button
+                        p1:text="T"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/button4"
+                        p1:layout_weight="1"
+                        p1:background="@android:color/darker_gray" />
+                    <Button
+                        p1:text="M"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/button5"
+                        p1:layout_weight="1"
+                        p1:background="@android:color/darker_gray" />
+                    <Button
+                        p1:text="J"
+                        p1:layout_width="wrap_content"
+                        p1:layout_height="match_parent"
+                        p1:id="@+id/button6"
+                        p1:layout_weight="1"
+                        p1:background="@android:color/darker_gray" />
+                </LinearLayout>
+            </RelativeLayout>
+            <TextView
+                p1:text="Betrag:"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView6"
+                p1:textColor="@android:color/background_dark" />
+            <TextView
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView7"
+                p1:textColor="@android:color/background_dark" />
+            <EditText
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText2"
+                p1:textColor="@android:color/background_dark" />
+            <TextView
+                p1:text="Zweck:"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView5"
+                p1:textColor="@android:color/background_dark" />
+            <EditText
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/editText3"
+                p1:textColor="@android:color/background_dark" />
+            <Button
+                p1:text="Hinzufügen"
+                p1:clickable="false"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/button7" />
+            <ListView
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/listView1"
+                p1:background="@android:color/holo_purple" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
